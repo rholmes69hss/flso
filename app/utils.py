@@ -5,3 +5,9 @@ def serialize_user(user):
         ("id",user.id),
         ("name", user.username)
     ])
+
+def serialize_role(role):
+    return OrderedDict([
+        ("id",role.id),
+        ("name", role.name)
+    ])

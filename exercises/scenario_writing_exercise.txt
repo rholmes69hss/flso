@@ -1,0 +1,27 @@
+Please create gherkin test scenarios that cover the following software system. The gherkin scenarios will allow manual testers to run rigorous manual testing and automated testers to write QA automation scripts. Be imaginative since the requirements are not detailed:
+
+* There are Teachers
+  Create,Read,Update,Delete a Teacher
+   
+* There are Students
+  Create,Read,Update,Delete a Student
+  Create,Read,Update,Delete a Class
+* Students are in classes that teachers teach
+- Student enroll in a class 
+- Student remove from a class
+- Teacher 
+* Teachers can create multiple quizzes with many questions (each question is multiple choice)
+  Teacher Create,Read,Update,Delete an Answer
+  Teacher Create,Read,Update,Delete a Question
+  Teacher can create,read,update,delete a quiz
+* Teachers can assign quizzes to students
+  A Teacher can assign a quiz to student(s)
+  A Teacher can unassign a quiz from student(s)
+* Students solve/answer questions to complete the quiz, but they don't have to complete it at once. (Partial submissions can be made).
+  Student takes a quiz and saves it for later.
+  Student takes a quiz and submit it to teacher for grading.
+* Quizzes need to get graded.
+  Teacher grades a student quiz.
+* For each teacher, they can calculate each student's total grade accumulated over a semester for their classes
+  Teacher calculate semester GPA for all classes.
+
